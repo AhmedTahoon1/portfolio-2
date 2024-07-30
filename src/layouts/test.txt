@@ -1,0 +1,5 @@
+something like
+Navbar
+sidebar
+footer
+...
