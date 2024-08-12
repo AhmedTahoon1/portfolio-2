@@ -1,4 +1,6 @@
+import { NavHashLink } from "react-router-hash-link";
 import "./menu.scss";
+
 const Menu = ({ menuOpen, setMenuOpen }) => {
   return (
     <div className={"menu " + (menuOpen && " active")}>
@@ -8,19 +10,54 @@ const Menu = ({ menuOpen, setMenuOpen }) => {
       </div>
       <ul>
         <li onClick={() => setMenuOpen(false)}>
-          <a href="#intro">Home</a>
+          <NavHashLink
+            activeClassName="active"
+            activeStyle={{ color: "crimson" }}
+            smooth
+            to="#intro"
+          >
+            Home
+          </NavHashLink>
         </li>
         <li onClick={() => setMenuOpen(false)}>
-          <a href="#portfolio">Portfolio</a>
+          <NavHashLink
+            activeClassName="active"
+            activeStyle={{ color: "crimson" }}
+            smooth
+            to="#portfolio"
+          >
+            Portfolio
+          </NavHashLink>
         </li>
         <li onClick={() => setMenuOpen(false)}>
-          <a href="#works">Works</a>
+          <NavHashLink
+            activeClassName="active"
+            activeStyle={{ color: "crimson" }}
+            smooth
+            to="#works"
+          >
+            Works
+          </NavHashLink>
         </li>
         <li onClick={() => setMenuOpen(false)}>
-          <a href="#testimonials">Testimonials</a>
+          <NavHashLink
+            activeClassName="active"
+            activeStyle={{ color: "crimson" }}
+            smooth
+            to="#testimonials"
+          >
+            Testimonials
+          </NavHashLink>
         </li>
         <li onClick={() => setMenuOpen(false)}>
-          <a href="#contact">Contact</a>
+          <NavHashLink
+            activeClassName="active"
+            activeStyle={{ color: "crimson" }}
+            smooth
+            to="#contact"
+          >
+            Contact
+          </NavHashLink>
         </li>
       </ul>
     </div>

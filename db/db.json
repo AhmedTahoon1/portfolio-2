@@ -1,0 +1,360 @@
+{
+  "intro": {
+    "img": "../../assets/images/avataaars-1721562423147.png",
+    "name": "A.Tahoon",
+    "jobs": "Developer,Designer,Marketer,Tester"
+  },
+  "portfolio": [
+    {
+      "title": "Tahoon UI Design",
+      "desc": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit aut, rem recusandae id et magnam eum deleniti sint.",
+      "mainImg": "../assets/images/fotor-ai-20240713145342.jpg",
+      "images": [
+        "../assets/images/fotor-ai-20240713145342.jpg",
+        "../assets/images/fotor-ai-20240713145342.jpg",
+        "../assets/images/fotor-ai-20240713145342.jpg",
+        "../assets/images/fotor-ai-20240713145342.jpg"
+      ],
+      "publishLink": "https://www.google.com",
+      "repoLink": "https://www.github.com",
+      "techs": "HTML,CSS,JS,REACT,JSON-Server,",
+      "category": "web",
+      "show": "true",
+      "link":"",
+      "version":"1",
+      "creator":"A.Tahoon",
+      "id": "2"
+    },
+    {
+      "id": "3",
+      "title": "E-commerce Web Design",
+      "desc": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit aut, rem recusandae id et magnam eum deleniti sint.",
+      "mainImg": "../assets/images/fotor-ai-20240713145342.jpg",
+      "category": "featured",
+      "images": [
+        "../assets/images/fotor-ai-20240713145342.jpg",
+        "../assets/images/fotor-ai-20240713145342.jpg",
+        "../assets/images/fotor-ai-20240713145342.jpg",
+        "../assets/images/fotor-ai-20240713145342.jpg"
+      ],
+      "publishLink": "https://www.google.com",
+      "repoLink": "https://www.github.com",
+      "techs": "HTML,CSS,JS,REACT",
+      "link":"",
+      "version":"1",
+      "creator":"A.Tahoon",
+      "show": "true"
+    },
+    {
+      "id": "4",
+      "title": "Saraha Web App",
+      "desc": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit aut, rem recusandae id et magnam eum deleniti sint.",
+      "mainImg": "../assets/images/fotor-ai-20240713145342.jpg",
+      "category": "featured",
+      "images": [
+        "../assets/images/fotor-ai-20240713145342.jpg",
+        "../assets/images/fotor-ai-20240713145342.jpg",
+        "../assets/images/fotor-ai-20240713145342.jpg",
+        "../assets/images/fotor-ai-20240713145342.jpg"
+      ],
+      "publishLink": "https://www.google.com",
+      "repoLink": "https://www.github.com",
+      "techs": "HTML,CSS,JS,REACT",
+      "link":"",
+      "version":"1",
+      "creator":"A.Tahoon",
+      "show": "true"
+    },
+    {
+      "id": "5",
+      "title": "Maksab Web App",
+      "desc": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit aut, rem recusandae id et magnam eum deleniti sint.",
+      "mainImg": "../assets/images/fotor-ai-20240713145342.jpg",
+      "category": "web",
+      "images": [
+        "../assets/images/fotor-ai-20240713145342.jpg",
+        "../assets/images/fotor-ai-20240713145342.jpg",
+        "../assets/images/fotor-ai-20240713145342.jpg",
+        "../assets/images/fotor-ai-20240713145342.jpg"
+      ],
+      "publishLink": "https://www.google.com",
+      "repoLink": "https://www.github.com",
+      "techs": "HTML,CSS,JS,REACT",
+      "link":"",
+      "version":"1",
+      "creator":"A.Tahoon",
+      "show": "true"
+    },
+    {
+      "id": "6",
+      "title": "E-commerce Web App",
+      "desc": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit aut, rem recusandae id et magnam eum deleniti sint.",
+      "mainImg": "../assets/images/fotor-ai-20240713145342.jpg",
+      "category": "web",
+      "images": [
+        "../assets/images/fotor-ai-20240713145342.jpg",
+        "../assets/images/fotor-ai-20240713145342.jpg",
+        "../assets/images/fotor-ai-20240713145342.jpg",
+        "../assets/images/fotor-ai-20240713145342.jpg"
+      ],
+      "publishLink": "https://www.google.com",
+      "repoLink": "https://www.github.com",
+      "techs": "HTML,CSS,JS,REACT",
+      "link":"",
+      "version":"1",
+      "creator":"A.Tahoon",
+      "show": "true"
+    },
+    {
+      "id": "7",
+      "title": "Saraha UI Design",
+      "desc": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit aut, rem recusandae id et magnam eum deleniti sint.",
+      "mainImg": "../assets/images/fotor-ai-20240713145342.jpg",
+      "category": "design",
+      "images": [
+        "../assets/images/fotor-ai-20240713145342.jpg",
+        "../assets/images/fotor-ai-20240713145342.jpg",
+        "../assets/images/fotor-ai-20240713145342.jpg",
+        "../assets/images/fotor-ai-20240713145342.jpg"
+      ],
+      "publishLink": "https://www.google.com",
+      "repoLink": "https://www.github.com",
+      "techs": "HTML,CSS,JS,REACT",
+      "link":"",
+      "version":"1",
+      "creator":"A.Tahoon",
+      "show": "true"
+    },
+    {
+      "id": "8",
+      "title": "Maksab UI Design",
+      "desc": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit aut, rem recusandae id et magnam eum deleniti sint.",
+      "mainImg": "../assets/images/fotor-ai-20240713145342.jpg",
+      "category": "design",
+      "images": [
+        "../assets/images/fotor-ai-20240713145342.jpg",
+        "../assets/images/fotor-ai-20240713145342.jpg",
+        "../assets/images/fotor-ai-20240713145342.jpg",
+        "../assets/images/fotor-ai-20240713145342.jpg"
+      ],
+      "publishLink": "https://www.google.com",
+      "repoLink": "https://www.github.com",
+      "techs": "HTML,CSS,JS,REACT",
+      "link":"",
+      "version":"1",
+      "creator":"A.Tahoon",
+      "show": "true"
+    },
+    {
+      "id": "9",
+      "title": "E-commerce UI Design",
+      "desc": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit aut, rem recusandae id et magnam eum deleniti sint.",
+      "mainImg": "../assets/images/fotor-ai-20240713145342.jpg",
+      "category": "design",
+      "images": [
+        "../assets/images/fotor-ai-20240713145342.jpg",
+        "../assets/images/fotor-ai-20240713145342.jpg",
+        "../assets/images/fotor-ai-20240713145342.jpg",
+        "../assets/images/fotor-ai-20240713145342.jpg"
+      ],
+      "publishLink": "https://www.google.com",
+      "repoLink": "https://www.github.com",
+      "techs":"HTML,CSS,JS,REACT",
+      "link":"",
+      "version":"1",
+      "creator":"A.Tahoon",
+      "show":"true"
+
+    },
+    {
+      "id": "10",
+      "title": "Saraha App",
+      "desc": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit aut, rem recusandae id et magnam eum deleniti sint.",
+      "mainImg": "../assets/images/fotor-ai-20240713145342.jpg",
+      "category": "mobile",
+      "images": [
+        "../assets/images/fotor-ai-20240713145342.jpg",
+        "../assets/images/fotor-ai-20240713145342.jpg",
+        "../assets/images/fotor-ai-20240713145342.jpg",
+        "../assets/images/fotor-ai-20240713145342.jpg"
+      ],
+      "publishLink": "https://www.google.com",
+      "repoLink": "https://www.github.com",
+      "techs":"HTML,CSS,JS,REACT",
+      "link":"",
+      "version":"1",
+      "creator":"A.Tahoon",
+      "show":"true"
+    },
+    {
+      "id": "11",
+      "title": "Maksab App",
+      "desc": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit aut, rem recusandae id et magnam eum deleniti sint.",
+      "mainImg": "../assets/images/fotor-ai-20240713145342.jpg",
+      "category": "mobile",
+      "images": [
+        "../assets/images/fotor-ai-20240713145342.jpg",
+        "../assets/images/fotor-ai-20240713145342.jpg",
+        "../assets/images/fotor-ai-20240713145342.jpg",
+        "../assets/images/fotor-ai-20240713145342.jpg"
+      ],
+      "publishLink": "https://www.google.com",
+      "repoLink": "https://www.github.com",
+      "techs":"HTML,CSS,JS,REACT",
+      "link":"",
+      "version":"1",
+      "creator":"A.Tahoon",
+      "show":"true"
+    },
+    {
+      "id": "12",
+      "title": "content Social Media App",
+      "desc": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit aut, rem recusandae id et magnam eum deleniti sint.",
+      "mainImg": "../assets/images/fotor-ai-20240713145342.jpg",
+      "category": "content",
+      "images": [
+        "../assets/images/fotor-ai-20240713145342.jpg",
+        "../assets/images/fotor-ai-20240713145342.jpg",
+        "../assets/images/fotor-ai-20240713145342.jpg",
+        "../assets/images/fotor-ai-20240713145342.jpg"
+      ],
+      "publishLink": "https://www.google.com",
+      "repoLink": "https://www.github.com",
+      "techs":"HTML,CSS,JS,REACT",
+      "link":"",
+      "version":"1",
+      "creator":"A.Tahoon",
+      "show":"true"
+    },
+    {
+      "id": "13",
+      "title": "Content Maksab App",
+      "desc": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit aut, rem recusandae id et magnam eum deleniti sint.",
+      "mainImg": "../assets/images/fotor-ai-20240713145342.jpg",
+      "category": "content",
+      "images": [
+        "../assets/images/fotor-ai-20240713145342.jpg",
+        "../assets/images/fotor-ai-20240713145342.jpg",
+        "../assets/images/fotor-ai-20240713145342.jpg",
+        "../assets/images/fotor-ai-20240713145342.jpg"
+      ],
+      "publishLink": "https://www.google.com",
+      "repoLink": "https://www.github.com",
+      "techs":"HTML,CSS,JS,REACT",
+      "link":"",
+      "version":"1",
+      "creator":"A.Tahoon",
+      "show":"true"
+    },
+    {
+      "id": "8138021",
+      "title": "Test Project",
+      "desc": "Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test ",
+      "mainImg": "../../assets/icons/phone.png",
+      "images": [
+        "../assets/images/fotor-ai-20240713145342.jpg",
+        "../assets/images/fotor-ai-20240713145342.jpg",
+        "../assets/images/fotor-ai-20240713145342.jpg",
+        "../assets/images/fotor-ai-20240713145342.jpg"
+      ],
+      "publishLink": "No",
+      "repoLink": "No",
+      "category": "web",
+      "techs":"HTML,CSS,JS,REACT",
+      "link":"",
+      "version":"1",
+      "creator":"A.Tahoon",
+      "show":"true"
+    }
+  ],
+  "projectCategoryList": [
+    {
+      "id": "featured",
+      "name": "Featured"
+    },
+    {
+      "id": "web",
+      "name": "Web Developing"
+    },
+    {
+      "id": "design",
+      "name": "UI/UX Design"
+    },
+    {
+      "id": "mobile",
+      "name": "Mobile Development"
+    },
+    {
+      "id": "content",
+      "name": "Content Creating"
+    }
+  ],
+  "works": [
+    {
+      "id": "6",
+      "title": "Web Developing",
+      "desc": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit aut, rem recusandae id et magnam eum deleniti sint.",
+      "icon": "../../assets/icons/phone.png",
+      "img": "../../assets/icons/phone.png",
+      "category": "Web Developing",
+      "categoryID": "web",
+      "show": "true"
+    },
+    {
+      "id": "7298717",
+      "title": "dsadsa",
+      "desc": "kdsjf[aoihfpd9a8ypaf\nfdsafdsa\nfdsaffda",
+      "icon": "../../assets/icons/phone.png",
+      "img": "../../assets/icons/phone.png",
+      "category": "Web Developing",
+      "categoryID": "web",
+      "show": "true"
+    },
+    {
+      "id": "7737479",
+      "title": "test",
+      "desc": "dsasda",
+      "icon": "../../assets/icons/phone.png",
+      "img": "../../assets/icons/phone.png",
+      "categoryName": "Web Developing",
+      "categoryID": "web",
+      "show": "true"
+    }
+  ],
+  "testimonials": [
+    {
+      "id": "3",
+      "name": "Shahd Tarek",
+      "job": "Senior Engineer ",
+      "reviewText": "Lorem ipsum dolor sit amet consectetur adipisicing elit. In optio quisquam",
+      "userImg": "../../assets/images/fotor-ai-20240713145320-removebg-preview.ico",
+      "socialIcon": "../../assets/icons/icons8-linkedin-500.png",
+      "socialLink": "NONONO",
+      "show": "true"
+    },
+    {
+      "id": "5",
+      "name": "Shahd Tarek",
+      "job": "Senior Engineer ",
+      "reviewText": "Lorem ipsum dolor sit amet consectetur adipisicing elit. In optio quisquam",
+      "userImg": "../../assets/images/fotor-ai-20240713145320-removebg-preview.ico",
+      "socialIcon": "../../assets/icons/icons8-linkedin-500.png",
+      "socialLink": "NONONO",
+      "show": "true"
+    },
+    {
+      "id": "6",
+      "name": "Shahd Tarek",
+      "job": "Senior Engineer ",
+      "reviewText": "Lorem ipsum dolor sit amet consectetur adipisicing elit. In optio quisquam,Lorem ipsum dolor sit amet consectetur adipisicing elit. In optio quisquam",
+      "userImg": "../../assets/images/fotor-ai-20240713145320-removebg-preview.ico",
+      "socialIcon": "../../assets/icons/icons8-linkedin-500.png",
+      "socialLink": "NONONO",
+      "show": "true"
+    }
+  ],
+  "contact": {
+    "img": "../../assets/images/avataaars-1721562423147.png",
+    "message": "طب يا سيدي شكراً"
+  }
+}

@@ -1,8 +1,23 @@
-import { useRef, useState } from "react";
+import { useState, useEffect } from "react";
 import "./contact.scss";
-import contactImg from "../../assets/images/shake.svg";
+import contactImg from "../../assets/images/fotor-ai-20240713145520.jpg";
 function Contact() {
   const [message, setMessage] = useState(false);
+  const [data, setData] = useState({
+    img: "../../assets/images/avataaars-1721562423147.png",
+    message: "",
+  });
+
+  useEffect(() => {
+    const fetchApi = async () => {
+      // Call Backend
+      const res = await fetch("http://localhost:5000/contact").then((res) =>
+        res.json()
+      );
+      setData(res);
+    };
+    fetchApi();
+  }, []);
 
   const onSubmit = async (event) => {
     event.preventDefault();
@@ -32,16 +47,16 @@ function Contact() {
   return (
     <div className="contact" id="contact">
       <div className="left">
-        <img src={contactImg} alt="" />
+        <img src={data.img ? data.img : contactImg} alt="img" />
       </div>
       <div className="right">
         <h2>Contact.</h2>
         <form onSubmit={onSubmit}>
-          <input type="text" name="name" placeholder="Full Name" />
-          <input type="text" name="email" placeholder="Email" />
-          <textarea name="message" placeholder="Message"></textarea>
+          <input type="text" name="name" placeholder="Full Name" required />
+          <input type="text" name="email" placeholder="Email" required />
+          <textarea name="message" placeholder="Message" required></textarea>
           <button type="submit">Send</button>
-          {message && <span>Thanks, I'll reply ASAP :)</span>}
+          {message && <span>{data.message}</span>}
         </form>
       </div>
     </div>

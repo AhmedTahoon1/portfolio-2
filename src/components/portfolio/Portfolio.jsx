@@ -7,7 +7,6 @@ import {
   contentPortfolio,
   designPortfolio,
 } from "../../data/portfolioData";
-import imgSample from "../../assets/images/fotor-ai-20240713145342.jpg";
 import PortfolioList from "../portfolioList/PortfolioList";
 const Portfolio = () => {
   const [selected, setSelected] = useState("featured");

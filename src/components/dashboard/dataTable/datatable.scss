@@ -1,0 +1,106 @@
+@import "../../../assets/global.scss";
+
+.sec-dashboard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin: 50px 0;
+  padding: 0 30px;
+
+  h2 {
+    font-size: 50px;
+    margin-bottom: 30px;
+    color: $mainColor;
+  }
+
+  .table_component {
+    overflow: auto;
+    width: 100%;
+    margin-bottom: 20px;
+
+    table {
+      border: 1px solid #dededf;
+      height: 100%;
+      width: 100%;
+      /*table-layout: fixed;*/
+      border-collapse: collapse;
+      border-spacing: 1px;
+      text-align: center;
+
+      caption {
+        caption-side: top;
+        text-align: left;
+      }
+      tbody{font-size: 14px;}
+      tbody tr {
+        background-color: #ffffff;
+        color: #000000;
+
+        &.active {
+          background-color: $mainColor;
+          color: #FFF;
+        }
+      }
+
+      th {
+        border: 1px solid #dededf;
+        background-color: #eceff1;
+        color: #000000;
+        padding: 20px 5px;
+      }
+
+      td {
+        border: 1px solid #dededf;
+        padding: 10px 10px;
+
+        &.delete {
+          cursor: pointer;
+          color: crimson;
+          text-decoration: underline;
+        }
+
+        &.show {
+          padding: 0;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 100%;
+          height: 100%;
+        }
+
+        &.show input {
+          width: 50%;
+          height: 50%;
+          display: block;
+          cursor: pointer;
+        }
+
+        img {
+          width: 40px;
+          height: 40px;
+        }
+      }
+    }
+  }
+
+  button {
+    width: 100%;
+    padding: 10px 0;
+    background-color: $mainColor;
+    color: #ffffff;
+    font-size: 20px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+
+    a {
+      display: block;
+      width: 100%;
+      height: 100%;
+      color: #FFF;
+      text-decoration: none;
+    }
+  }
+}

@@ -1,0 +1,27 @@
+form{
+  .buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    button,a{
+      width: 30%;
+      margin: 0 30px;
+      padding: 10px;
+      font-size: 20px;
+      outline: none;
+      color: #FFF;
+      background-color: #15023a;
+      border: none;
+      cursor: pointer;
+      text-align: center;
+    }
+
+    .back-button{
+
+      background-color: crimson;
+      text-decoration: none;
+    }
+
+  }
+}

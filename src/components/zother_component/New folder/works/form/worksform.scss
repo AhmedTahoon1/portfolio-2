@@ -1,0 +1,21 @@
+form{
+  .buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    button{
+      width: 30%;
+      margin: 0 30px;
+    }
+
+    .back-button{
+      background-color: crimson;
+      a{
+        color: #FFF;
+        text-decoration: none;
+      }
+    }
+
+  }
+}

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 // Import Swiper styles
@@ -9,33 +9,20 @@ import "swiper/css/pagination";
 import { Navigation, Pagination, Mousewheel, Keyboard } from "swiper/modules";
 
 import "./works.scss";
-import mobileIcon from "../../assets/icons/phone.png";
-import wallpaper from "../../assets/images/fotor-ai-20240713145342.jpg";
 
 const Works = () => {
-  const data = [
-    {
-      id: "1",
-      icon: mobileIcon,
-      title: "Web Design",
-      desc: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit aut, rem recusandae id et magnam eum deleniti sint.",
-      img: wallpaper,
-    },
-    {
-      id: "2",
-      icon: mobileIcon,
-      title: "Mobile Application",
-      desc: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit aut, rem recusandae id et magnam eum deleniti sint.",
-      img: wallpaper,
-    },
-    {
-      id: "3",
-      icon: mobileIcon,
-      title: "Web Developing",
-      desc: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit aut, rem recusandae id et magnam eum deleniti sint.",
-      img: wallpaper,
-    },
-  ];
+  const [data, setData] = useState([]);
+
+  useEffect(() => {
+    const fetchApi = async () => {
+      // Call Backend
+      const res = await fetch("http://localhost:5000/works?show=true").then(
+        (res) => res.json()
+      );
+      setData(res);
+    };
+    fetchApi();
+  }, []);
 
   /*const handleClick = (arrow) => {
     arrow === "left"
@@ -44,13 +31,17 @@ const Works = () => {
   };*/
 
   return (
-    <section className="works" id="works">
+    <section
+      className="works"
+      id="works"
+      style={{ display: data.length > 0 ? "flex" : "none" }}
+    >
       <div className="slider">
         <div className="container">
           <Swiper
             rewind={true}
             cssMode={true}
-            navigation={true}
+            navigation={data.length > 1 ? true : false}
             pagination={true}
             mousewheel={true}
             keyboard={true}
